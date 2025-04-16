@@ -1,6 +1,6 @@
 import streamlit as st
 import pathlib
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 from PIL import Image
 selector='home'
 import pandas as pd
@@ -99,7 +99,7 @@ st.markdown("""
 
 with st.sidebar:
     st.sidebar.image('logo.jpg',width=700)
-    selected=option_menu(
+    selected=st.sidebar(
     "Main Menu",
         ["Home","About", "Services", "Events", "Carrier", "FAQ", "Contact","Login","Forgot password","Create account","Developed by"],
         icons=["house","person-circle", "tools", "calendar", "graph-up", "question-circle", "person-lines-fill","box-arrow-in-right","key","person","person	"],
