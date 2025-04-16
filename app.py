@@ -15,7 +15,7 @@ st.set_page_config(page_title="Edunet Foundation", page_icon="logo.jpg", layout=
 
     
 def login_button():
-    login_url = ""
+    login_url = "https://emp-system1.streamlit.app/"
 
     st.markdown(f"""
         <a href="{login_url}" target="_self">
