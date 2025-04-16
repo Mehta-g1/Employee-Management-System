@@ -36,7 +36,7 @@ To build an interactive and secure system for:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/employee-management-streamlit.git
+git clone https://github.com/mehta-g1/employee-management-streamlit.git
 cd employee-management-streamlit
 ```
 
@@ -134,9 +134,7 @@ streamlit run empdata.py
 | Name | GitHub / LinkedIn |
 |------|--------------------|
 | Vikash Kumar Mehta | [GitHub](https://github.com/Mehta-g1) |
-| Singh Rishav Amboj | [GitHub](https://github.com/Singhrishav85) |
-| Ravish Kumar Singh | [LinkedIn](https://www.linkedin.com/in/ravish-kumar-singh-9abba9296) |
-| Ujjwal Satyaprakash | [LinkedIn](https://www.linkedin.com/in/ujjwal-satya-prakash-a11523290) |
+
 
 ---
 
