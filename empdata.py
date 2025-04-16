@@ -94,7 +94,7 @@ if st.session_state.is_logged_in:
 
     if selected == "Dashboard":
         st.image('mitt.jpg',width=1300)
-        home_url = "http://localhost:8501/app.py"
+        home_url = "https://emp-system.streamlit.app/"
         st.markdown(f"""
             <a href="{home_url}" target="_self">
                     <button class="one">Home page</button>
