@@ -139,7 +139,7 @@ streamlit run empdata.py
 
 | Name | GitHub / LinkedIn |
 |------|--------------------|
-| Vikash Kumar Mehta | [GitHub](https://github.com/Mehta-g1) |
+| Vikash Kumar Mehta | [GitHub](https://github.com/Mehta-g1) / [Linkedin](https://www.linkedin.com/in/mehta-g1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)|
 
 
 ---
