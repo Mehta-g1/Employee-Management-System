@@ -4,7 +4,7 @@
 ## 👨‍💼 Project Title
 **Employee Management System**  
 Built with 🐍 Python + 📊 Streamlit + 🗄️ MySQL  
-A user-friendly web-based dashboard for managing employee data, developed by students of MIT, Meerut in collaboration with Edunet Foundation.
+A user-friendly web-based dashboard for managing employee data, developed by students of MIT, Meerut.
 
 ---
 
@@ -78,7 +78,7 @@ CREATE TABLE emp_data (
     mobile VARCHAR(15),
     email VARCHAR(100),
     merital_status BOOLEAN,
-    start_date DATE
+    start_date VARCHAR(100)
 );
 ```
 
