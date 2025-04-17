@@ -36,8 +36,8 @@ To build an interactive and secure system for:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/mehta-g1/employee-management-streamlit.git
-cd employee-management-streamlit
+git clone https://github.com/mehta-g1/employee-management-system.git
+cd employee-management-system
 ```
 
 ### 2️⃣ Install Required Libraries
@@ -129,7 +129,7 @@ streamlit run empdata.py
 
 ---
 
-## 🧑‍💻 Developers
+## 🧑‍💻 Developer
 
 | Name | GitHub / LinkedIn |
 |------|--------------------|
@@ -140,7 +140,7 @@ streamlit run empdata.py
 
 ## 📷 Screenshots
 
-Include screenshots of:
+Included screenshots of:
 - Login page
 - Add employee form
 - Dashboard overview
@@ -156,7 +156,3 @@ Include screenshots of:
 - Cloud deployment (e.g. Render, Streamlit Cloud)
 
 ---
-
-## 📄 License
-
-This project is developed for educational use under Edunet Foundation. All rights reserved © 2025.
