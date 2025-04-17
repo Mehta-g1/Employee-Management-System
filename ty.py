@@ -1,26 +1,7 @@
 import mysql.connector
 
 
-def connect_database():
-    connection=False
-    try:
-        mydb = mysql.connector.connect(
-                username='root',
-                password='Vikash@123',
-                host='localhost',
-                database='project'
-            )
 
-        cur = mydb.cursor()
-        connection=True
-    except mysql.connector.Error as err:
-        connection=False
-    if connection:
-        return (mydb,cur)
-    else:
-        return False
-
-c = connect_database()
 
 def analyse(data):
     l1=[]
