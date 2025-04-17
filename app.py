@@ -24,49 +24,6 @@ def login_button():
     """, unsafe_allow_html=True)
 
 
-def login_authentication():
-
-
-    username = st.text_input("👤 Username")
-    password = st.text_input("🔒 Password", type="password")
-    login_btn = st.button("Login")
-    check=True if username and password else False
-    if login_btn and check:
-        try:
-            # mydb = mysql.connector.connect(
-            #     username='root',
-            #     password='Vikash@123',
-            #     host='localhost',
-            #     database='project'
-            # )
-            mydb = mysql.connector.connect(
-                username='sql12773535',
-                password='T5keKr2YFk',
-                host='sql12.freesqldatabase.com',
-                database='sql12773535'
-            )
-            cur = mydb.cursor()
-        except mysql.connector.Error as err:
-            st.error(f"❌ Database connection failed: {err}")
-
-        cur.execute("SELECT * FROM user_password WHERE username = %s", (username,))
-        result = cur.fetchall()
-        if len(result) < 1:
-            st.error("❌ Invalid username or password")
-        else:
-            stored_password = str(result[0][6])  
-            if stored_password == password:
-                st.success("✅ Login Successful! 🎉")
-                # st.balloons()
-                # st.snow()
-                return True
-            else:
-                st.error("❌ Invalid username or password")
-    elif login_btn:
-        st.error("Fill in the blanks.. !⚠️")
-    return False
-
-
 def click():
 
     st.markdown("""<style>
@@ -577,7 +534,7 @@ elif selected=="Login":
     # login = login_authentication()
     # Login Function
 
-    login_url = "http://localhost:8502/empdata.py"
+    login_url = "https://emp-system1.streamlit.app/"
     st.markdown(f"""
         <a href="{login_url}" target="_self">
                 <button class="one">Go to Login page</button>
