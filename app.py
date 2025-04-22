@@ -71,7 +71,7 @@ with st.sidebar:
 
 if selected=="Home":
     click()
-    st.image('cert.jpg',width=1300)
+    st.image('',width=1300)
     st.markdown("""
     <style>
                 .two            {
